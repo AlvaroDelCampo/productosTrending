@@ -62,21 +62,3 @@ export class ListaProductosComponent implements OnInit  {
   }
 }
 
-//buenos dias
-
-
-// bueno dia tambie
-
-
-
-
-
-
-
-
-// patatas fritas pa comer
-// por que no????????
-// no se
-// estoy en la rama de dario
-// patata
-// patatas fritas
