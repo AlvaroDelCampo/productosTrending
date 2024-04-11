@@ -62,8 +62,10 @@ export class ListaProductosComponent implements OnInit  {
   }
 }
 
+//buenos dias
 
 
+// bueno dia tambie
 
 
 
@@ -81,3 +83,4 @@ export class ListaProductosComponent implements OnInit  {
 // por que no????????
 // no se
 // estoy en la rama de dario
+// patata
