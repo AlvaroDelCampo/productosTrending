@@ -18,7 +18,7 @@ export class ListaProductosComponent implements OnInit  {
 
   ngOnInit(): void {
     this.obtenerProductos();
-    
+
   }
 
   obtenerProductos(): void {
@@ -33,8 +33,8 @@ export class ListaProductosComponent implements OnInit  {
       }
     );
   }
-  
-  
+
+
 
   obtenerFamilias(): void {
     this.familias = Array.from(new Set(this.productos.map(producto => producto.familia)));
@@ -42,18 +42,18 @@ export class ListaProductosComponent implements OnInit  {
 
   filtrarProductos(): any[] {
     let productosFiltrados = this.productos;
-  
+
     if (this.filtroBusqueda) {
       productosFiltrados = productosFiltrados.filter(producto =>
         producto.nombre_producto.toLowerCase().includes(this.filtroBusqueda.toLowerCase()) ||
         producto.reference.toLowerCase().includes(this.filtroBusqueda.toLowerCase())
       );
     }
-  
+
     if (this.filtroFamilia) {
       productosFiltrados = productosFiltrados.filter(producto => producto.familia === this.filtroFamilia);
     }
-  
+
     return productosFiltrados;
   }
 
@@ -70,3 +70,4 @@ export class ListaProductosComponent implements OnInit  {
 
 
 // patatas fritas pa comer
+// por que no????????
