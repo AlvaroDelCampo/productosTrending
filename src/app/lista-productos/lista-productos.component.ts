@@ -68,17 +68,6 @@ export class ListaProductosComponent implements OnInit  {
 // bueno dia tambie
 
 
-
-
-
-
-
-
-
-
-
-
-
 // patatas fritas pa comer
 // por que no????????
 // no se
