@@ -65,4 +65,4 @@ export class ListaProductosComponent implements OnInit  {
 
 
 
-// patatas fritas pa cena
+// patatas fritas pa
