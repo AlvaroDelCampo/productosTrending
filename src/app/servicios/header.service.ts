@@ -13,4 +13,4 @@ export class ProductService {
     return this.http.get<any[]>('https://pruebatest.trendingcorporate.com/connector1.php');
   }
 }
-//hola pepe
+//zapato
