@@ -1,5 +1,8 @@
 <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
-  <div ngxSlickItem *ngFor="let img of imagenes" class="slide">
-    <img [src]="img.url_imagen" alt="{{ img.nombre_producto }}">
-  </div>
+  <ng-container *ngFor="let img of imagenes">
+    <div ngxSlickItem class="slide" *ngIf="img && img.url_imagen">
+      <img [src]="img.url_imagen" alt="{{ img.nombre_producto }}">
+    </div>
+  </ng-container>
 </ngx-slick-carousel>
+
