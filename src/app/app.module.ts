@@ -10,7 +10,6 @@ import { HeaderComponent } from './header/header.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { CarrouselComponent } from './carrousel/carrousel.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
