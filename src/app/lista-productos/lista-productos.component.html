@@ -1,14 +1,9 @@
-
-
-
 <input type="text" [(ngModel)]="filtroBusqueda" placeholder="Buscar por nombre o referencia" class="input-busqueda">
 
- 
 <select [(ngModel)]="filtroFamilia" class="select-familia">
   <option value="">Todas las familias</option>
   <option *ngFor="let familia of familias" [value]="familia">{{ familia }}</option>
 </select>
-
 
 <ul class="producto-lista">
   <li *ngFor="let producto of filtrarProductos() | paginate: { itemsPerPage: 10, currentPage: page }" class="producto-item">
